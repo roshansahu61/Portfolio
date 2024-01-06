@@ -18,7 +18,7 @@
           <div>
             <img src="../assets/blood_project.png"/>
           </div>
-          <button class="btn btn-outline-info" @click="viewUrl('https://drive.google.com/file/d/1EAc3rqqnCm4HFRsbnDYhI07FVBPTMlOd/view?usp=sharing')">
+          <button class="btn btn-outline-info" @click="viewUrl('https://dreamy-banoffee-b9dd62.netlify.app/')">
             View
           </button>
           <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/Blood-web')">
@@ -58,6 +58,46 @@
             Code
           </button>
         </div>
+        <div class="project-image">
+          <div>
+            <img src="../assets/uic_project.png"/>
+          </div>
+          <button class="btn btn-outline-info" @click="viewUrl('https://mystifying-shaw-f4dc85.netlify.app/')">
+            View
+          </button>
+        </div>
+        <div class="project-image">
+          <div>
+            <img src="../assets/neoreach_project.png"/>
+          </div>
+          <button class="btn btn-outline-info" @click="viewUrl('https://affectionate-lovelace-1649f4.netlify.app/')">
+            View
+          </button>
+          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/NeoReach')">
+            Code
+          </button>
+        </div>
+
+        <div class="project-image">
+          <div>
+            Other Projects
+          </div>
+          <ul class="ml-3">
+            <li @click="viewUrl('https://modest-poitras-90dacd.netlify.app/')">
+              3d Video
+            </li>
+            <li @click="viewUrl('https://prismatic-lollipop-56a386.netlify.app/#')">
+              WebWrite
+            </li>
+            <li @click="viewUrl('https://naughty-lichterman-847fbd.netlify.app/')">
+              E-commers 
+            </li>
+            <li @click="viewUrl('https://blissful-euler-4f35c7.netlify.app/')">
+              Capture
+            </li>
+          </ul>
+          
+        </div>
       </VueSlickCarousel>
     </div>
   </section>
@@ -92,6 +132,10 @@
       height: 100%;
       width: 100%;
     }
+  }
+  li:hover{
+    cursor: pointer;
+    text-decoration: underline;
   }
 }
 </style>

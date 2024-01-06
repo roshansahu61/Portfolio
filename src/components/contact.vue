@@ -44,8 +44,8 @@
     </ul>
     
     <p class="text-white text-right pr-3"> 
-      This Project is made with <b>Vue JS</b>
-      <button class="cursor" onclick="location.href=''"> View Code here </button>
+      This Project is made with Vue JS
+      <a onclick="location.href='https://github.com/arjad/Portfolio'"> <b> View Code here </b></a>
     </p>
   </footer>
 </template>
