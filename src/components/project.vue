@@ -9,7 +9,7 @@
         :dots="true"
         :infinite = "true"
         :slidesToShow= "3" 
-        :slidesToScroll="1"
+        :slidesToScroll="2"
         :autoplay= "true"
         :speed="2000"
         :autoplaySpeed="2000"
@@ -18,10 +18,10 @@
           <div>
             <img src="../assets/blood_project.png"/>
           </div>
-          <button class="btn btn-outline-info" @click="viewUrl('https://dreamy-banoffee-b9dd62.netlify.app/')">
+          <button class="btn mr-2" @click="viewUrl('https://dreamy-banoffee-b9dd62.netlify.app/')">
             View
           </button>
-          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/Blood-web')">
+          <button class="btn" @click="viewUrl('https://github.com/arjad/Blood-web')">
             Code
           </button>
         </div>
@@ -29,10 +29,10 @@
           <div>
             <img src="../assets/amazon_project.png"/>
           </div>
-          <button class="btn btn-outline-info" @click="viewUrl('https://optimistic-shockley-06ae03.netlify.app/')">
+          <button class="btn mr-2" @click="viewUrl('https://optimistic-shockley-06ae03.netlify.app/')">
             View
           </button>
-          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/Amazon-Clone')">
+          <button class="btn" @click="viewUrl('https://github.com/arjad/Amazon-Clone')">
             Code
           </button>
         </div>
@@ -40,10 +40,10 @@
           <div>
             <img src="../assets/forest_project.png"/>
           </div>
-          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://ecstatic-noether-654f18.netlify.app/')">
+          <button class="btn mr-2" @click="viewUrl('https://ecstatic-noether-654f18.netlify.app/')">
             View
           </button>
-          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/Forest-Project')">
+          <button class="btn" @click="viewUrl('https://github.com/arjad/Forest-Project')">
             Code
           </button>
         </div>
@@ -51,10 +51,10 @@
           <div>
             <img src="../assets/restaurant_project.png"/>
           </div>
-          <button class="btn btn-outline-info" @click="viewUrl('https://kaleidoscopic-cat-37f8fc.netlify.app/')">
+          <button class="btn mr-2" @click="viewUrl('https://kaleidoscopic-cat-37f8fc.netlify.app/')">
             View
           </button>
-          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/food-menu')">
+          <button class="btn" @click="viewUrl('https://github.com/arjad/food-menu')">
             Code
           </button>
         </div>
@@ -62,7 +62,7 @@
           <div>
             <img src="../assets/uic_project.png"/>
           </div>
-          <button class="btn btn-outline-info" @click="viewUrl('https://mystifying-shaw-f4dc85.netlify.app/')">
+          <button class="btn" @click="viewUrl('https://mystifying-shaw-f4dc85.netlify.app/')">
             View
           </button>
         </div>
@@ -70,10 +70,10 @@
           <div>
             <img src="../assets/neoreach_project.png"/>
           </div>
-          <button class="btn btn-outline-info" @click="viewUrl('https://affectionate-lovelace-1649f4.netlify.app/')">
+          <button class="btn mr-2" @click="viewUrl('https://affectionate-lovelace-1649f4.netlify.app/')">
             View
           </button>
-          <button class="btn btn-outline-info ml-3" @click="viewUrl('https://github.com/arjad/NeoReach')">
+          <button class="btn" @click="viewUrl('https://github.com/arjad/NeoReach')">
             Code
           </button>
         </div>
@@ -135,6 +135,9 @@
   }
   li:hover{
     cursor: pointer;
+    text-decoration: underline;
+  }
+  button:hover {
     text-decoration: underline;
   }
 }

@@ -97,4 +97,9 @@ ul {
   left: 0;
 }
 
+@media screen and (max-width: 375px) {
+  .details-container h3 {
+    font-size: 14px;
+  }
+}
 </style>

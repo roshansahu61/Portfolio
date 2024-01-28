@@ -44,7 +44,6 @@
     </ul>
     
     <p class="text-white text-right pr-3"> 
-      This Project is made with Vue JS
       <a onclick="location.href='https://github.com/arjad/Portfolio'"> <b> View Code here </b></a>
     </p>
   </footer>

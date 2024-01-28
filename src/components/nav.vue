@@ -2,7 +2,7 @@
   <div id="navigation" class="py-3 shadow nav">
     <div class="container d-flex- justify-content-between">
       <h2 class="d-inline">Arjad's Portfolio</h2>
-      <ul class="d-flex">
+      <ul class="d-flex mb-0">
         <li class="p-2 scroll-to" @click="scrollToSection('summary')">Summary</li>
         <li class="p-2 scroll-to" @click="scrollToSection('about')">About</li>
         <li class="p-2 scroll-to" @click="scrollToSection('skills')">Skills</li>
@@ -96,6 +96,12 @@ export default {
 
     .checkbox:checked + .checkbox-label .ball {
       transform: translateX(24px);
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    ul li:first-child {
+      display: none;
     }
   }
 }
