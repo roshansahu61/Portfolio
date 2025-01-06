@@ -63,7 +63,7 @@ export default {
   height: 75vh;
 
 .pic_container_inner {
-    height: 58vh;
+    height: 420px;
     width: 360px;
     position: relative;
     .green-bg{
@@ -75,9 +75,6 @@ export default {
       background: #47BA87;
     } 
 
-    img {
-      border-radius: 20px;
-    }
   }
 }
 

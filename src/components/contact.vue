@@ -34,6 +34,20 @@
         </li>
       </ul>
       
+      <ul class="first_url ml-5">
+        <li class="social-icon__item mb-4">
+          <h4> Services</h4>
+        </li>
+        <li class="social-icon__item">
+          Website Development
+        </li>
+        <li class="social-icon__item">
+          App Development
+        </li>
+        <li class="social-icon__item">
+          Others
+        </li>
+      </ul>
       
       <ul class="ml-5">
         <li class="social-icon__item mb-4">

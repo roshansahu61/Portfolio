@@ -2,39 +2,40 @@
   <section id="about" class="container">
     <Heading :title="'About Me'" :subtitle="'Want to know me'" />
 
-    <div class="section-container row">
-      <div data-aos="fade-right" data-aos-duration="1000" class="section__pic-container col-sm-12 col-lg-4">
-        <img
-          src="../assets/me2.jpeg"
-          alt="my_image"
-          class="rounded-circle"
-          zoomtastic
-        />
+    <div class="position-relative">
+      <div class="verticle-line position-absolute"></div>
+      <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
+        <h2 class='mb-4'> Experience - {{calculatedExperience}}+ year(s)</h2>
+        <div class='w-100 text-green'>
+          <h4 class='d-inline'> Software Engineer - 2022-present</h4>
+        </div>
+        <h6> <a class='text-blue' href= 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://codingcops.com/&ved=2ahUKEwj45KjR6OGKAxWXF2IAHS9oO-MQFnoECDcQAQ&usg=AOvVaw0qDV81i0KjT34kPmA7ojBM'> Coding Cops, Lahore. </a></h6>
+        <ul>
+          <li> Developed key features and resolved bugs for web applications using React, Vue.js, and Ruby on Rails. </li>
+          <li> Continuously enhancing skills by pursuing certifications in AWS, DevOps & python. </li>
+        </ul>
+        <h4 class='text-green'> Front End Developer - 2021-2022 </h4>
+        <h6> <a class='text-blue'href= 'https://theunitedsoftware.com/'>United Insurance, Lahore. </a> </h6>
+        <ul>
+          <li> Created visually appealing, user-friendly interfaces, using CSS grid and flexbox layouts for responsive design. </li>
+          <li> Utilized react components & npm modules to develop modular, reusable UI elements for efficient front-end development. </li>
+        </ul>
       </div>
-      <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 col-lg-7 col-sm-12">
-        <div class="about-containers d-flex">
-          <div class="details-container" @mouseover="setActiveSection('experience')">
-            <i class="fa-solid fa-award"></i>
-            <h3>Experience</h3>
-            <p>{{ calculatedExperience }}+ year(s)</p>
-          </div>
-          <div class="details-container" @mouseover="setActiveSection('education')">
-            <i class="fa-solid fa-school"></i>
-            <h3>Education</h3>
-            <p>BS.IT from PUCIT</p>
-          </div>
-        </div>
-        <div class="text-container mt-4 pl-3">
-          <ul v-if="activeSection === 'experience'">
-            <li> Software Engineer at <b>Coding Cops</b> - July 2021 - Present</li>
-            <li> React Developer at <b>United Insurance</b> Nov, 2021 to April, 2022</li>
-          </ul>
-          <ul v-else-if="activeSection == 'education'">
-            <li> Bachelor in Information Technology from <b>PUCIT</b> 2018 - 2022</li>
-            <li> Bechlors from <b>Punjab University</b> 2016 - 2018</li>
-            <li> Matric from <b>Central Modal School</b> 2016 - 2018</li>
-          </ul>
-        </div>
+    </div>
+
+    <div class="position-relative mt-5">
+      <div class="verticle-line position-absolute"></div>
+
+      <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
+        <h2 class='mb-4'> Education </h2>
+        
+        <h4 class='text-green'> Bachelor in Information Technology (BIT) - 2022-present </h4>
+        <h6><a class='text-blue' href='https://pucit.edu.pk/'> Punjab University (PUCIT) Lahore, Pakistan. </a></h6>
+        <p> Obtained comprehensive knowledge in computer science and information technology, enhancing skills in software development, and passed it with 3.06 CGPA. </p>
+
+        <h4 class='text-green'> Mern Stack Certification - 2022</h4>
+        <h6><a class='text-blue' href='https://nextbridge.com/'>Next Bridge, Lahore, Pakistan.</a>  </h6>
+        <p>Acquired advanced mern-stack, leveraging industry best practices to create dynamic and interactive web applications.</p>
       </div>
     </div>
   </section>
@@ -92,25 +93,22 @@ ul {
   line-height: 30px;
   font-size: 1.2rem;
 }
-.section-container {
-  gap: 4rem;
-  height: 80%;
-  position: relative
+
+.verticle-line{
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(to right, #47BA87 50%, #34495E 50%);
+}
+.verticle-line-right{
+  right:0;
 }
 
-.section__pic-container {
-  height: 350px;
-  width: 350px;
-  position: relative
-  
+.text-green{
+  color: #47BA87;
 }
-.section__pic-container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover; /* Optional: This ensures the image covers the entire container */
-  position: absolute; /* Position the image absolutely within its parent */
-  top: 0;
-  left: 0;
+.text-blue{
+  color: #34495E;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 375px) {
