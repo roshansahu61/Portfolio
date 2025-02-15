@@ -5,6 +5,7 @@
     <About />
     <Skills />
     <Project/>
+    <Journey />
     <WriteMe/>
     <Contact />
 
@@ -19,6 +20,7 @@ import Summary from "./components/summary.vue";
 import About from "./components/about.vue";
 import Skills from "./components/skills.vue";
 import Project from "./components/project.vue";
+import Journey from "./components/journey.vue";
 import Contact from "./components/contact.vue";
 import WriteMe from "./components/writeMe.vue";
 import ChatBot from "./components/features/chatbot.vue";
@@ -33,6 +35,7 @@ export default {
     About,
     Skills,
     Project,
+    Journey,
     Contact,
     WriteMe,
 
