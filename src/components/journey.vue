@@ -6,21 +6,21 @@
     <div class="container gallery-div">
       <div id="gallery">
         <div>
-          <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me2.jpeg" alt="profile pic" />
+          <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/meee.jpeg" alt="profile pic" />
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/desk.jpg" alt="profile pic" />
           <a href="#lightbox-2">My Work Desk</a>
         </div>
         <div>
-          <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me1.jpg" alt="profile pic" />
+          <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me2.jpg" alt="profile pic" />
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me5.jpeg" alt="profile pic" />
           <a href="#lightbox-4">Tour</a>
         </div>
         <div>
-          <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/coding.jpg" alt="profile pic" />
+          <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/me1.jpg" alt="profile pic" />
         </div>
         <div>
           <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/journey/laptop.jpeg" alt="profile pic" />
@@ -51,7 +51,7 @@
 
 <style scoped lang="scss">
 .gallery-div {
-  height:35rem;
+  height:30rem;
   overflow: hidden;
 }
 #gallery {
@@ -97,7 +97,6 @@
   font: bold 4em "Helvetica";
   text-shadow: 0 -1px 5px #fff, -1px 0px 5px #fff, 0 1px 5px #fff, 1px 0px 5px #fff;
   padding: 2rem;
-  mix-blend-mode: difference;
   width: 100%;
   height: 100%;
   transition: all ease 1s;
