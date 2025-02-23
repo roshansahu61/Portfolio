@@ -1,6 +1,5 @@
 <template>
-  <footer id="contact" class="footer d-flex justify-content-center alig-item-center">
-    <Heading :title="'Contact Me'" :subtitle="'Want To Get in Touch'" />
+  <footer id="contact" class="footer d-flex justify-content-center alig-item-center pt-4">
     <img class='footer-me' src="../assets/me-footer.png" alt="profile pic" />
 
     <div class="d-flex justify-content-start footer-inner">
@@ -82,12 +81,12 @@ export default {
   width: 100%;
   background: #47BA87;
   flex-direction: column;
-  margin-top: 25vh;
+  margin-top: 10vh;
   color: white;
 }
 .footer-me{
   height:100%;
-  width:45rem;
+  width:35rem;
   opacity:0.1;
   position: absolute;
   right: 0px;
