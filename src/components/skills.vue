@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="skills">
     <Heading :title="'Practical Skills'" :subtitle="'Explore My'" />
     <div class="container">
       <div class="d-flex justify-content-center flex-wrap">
