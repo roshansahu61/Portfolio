@@ -47,23 +47,23 @@
         projects: [
           {
             title: "Blood Donation Website",
-            description: "A real-time chat system for fast and responsive communication.",
+            description: "A web platform designed to connect blood donors with recipients efficiently. Users can create an account, input their blood type and location, and receive notifications when a matching recipient requires a donation. The system ensures quick and seamless communication between donors and those in need.",
             image: "/projects/project_blood_web.png",
             live: "https://dreamy-banoffee-b9dd62.netlify.app/",
             github: "https://github.com/arjad/Blood-web",
             technologies: ["React JS", "Node JS", "Mongo DB"]
           },
           {
-            title: "i Notes Extention",
-            description: "A real-time chat system for fast and responsive communication.",
+            title: "i Notes Extension",
+            description: "A Chrome browser extension for efficient note-taking. Users can create, save, and organize notes with time-based reminders. The extension also includes a quick copy feature, enhancing productivity. Developed with contributions from 10 developers, it offers a seamless and intuitive user experience.",
             image: "/projects/project_inotes.png",
             live: "https://github.com/arjad/chrome-notes",
             github: "https://github.com/arjad/chrome-notes",
             technologies: ["HTML", "CSS", "React JS", "Webpack"]
           },
           {
-            title: "Azoom Ecommers Website",
-            description: "A real-time chat system for fast and responsive communication.",
+            title: "Azoom E-Commerce Website",
+            description: "A fully functional e-commerce website developed for a U.S.-based client. The platform provides a seamless shopping experience, featuring product catalogs, secure payment integrations, and a user-friendly interface. Built with modern web technologies for optimized performance.",
             image: "/projects/project_azoom.png",
             live: "https://www.azoom.co.uk/",
             github: "https://github.com/arjad/azoom-ecomers",
@@ -71,7 +71,7 @@
           },
           {
             title: "Version Tracker Gem",
-            description: "A real-time chat system for fast and responsive communication.",
+            description: "A Ruby gem that enables version tracking for database models in a Rails application. It automatically creates an additional column to store previous versions of a record using callback functions, ensuring data integrity and version history management.",
             image: "/projects/project_version_tracker.png",
             live: "https://rubygems.org/gems/arjad_version_tracker/versions/0.5.0?locale=en",
             github: "https://github.com/arjad/arjad_version_tracker",
@@ -79,15 +79,15 @@
           },
           {
             title: "United Insurance Website",
-            description: "Restaurant app to take order using website",
+            description: "A complete redesign of the United Insurance Company’s website, built during an internship at UIC. The project involved modernizing the UI/UX, improving site responsiveness, and enhancing accessibility using HTML, CSS, and SASS for a polished and professional look.",
             image: "/projects/project_insurance.png",
             live: "https://mystifying-shaw-f4dc85.netlify.app/",
             github: "https://github.com/arjad/uic-new",
             technologies: ["React JS", "HTML", "SASS"]
-          }, 
+          },
           {
-            title: "WeHolding Real Estate  Website",
-            description: "A real-time chat system for fast and responsive communication.",
+            title: "WeHolding Real Estate Website",
+            description: "A real estate web application that helps property owners connect with potential buyers and renters. Users can explore property listings, contact owners directly, and make inquiries through the website, streamlining the real estate process.",
             image: "/projects/project_weHolding.png",
             live: "https://weholdings.netlify.app/",
             github: "https://github.com/arjad/WeHoldings",
@@ -95,7 +95,7 @@
           },
           {
             title: "NeoReach",
-            description: "Website with animation and visual CSS",
+            description: "A visually dynamic website featuring animations and custom CSS effects to enhance user engagement. Designed to showcase advanced front-end development techniques with a focus on smooth transitions, responsiveness, and interactive elements.",
             image: "/projects/project_neoreach.png",
             live: "https://affectionate-lovelace-1649f4.netlify.app/",
             github: "https://github.com/arjad/NeoReach",
@@ -103,13 +103,12 @@
           },
           {
             title: "Food Menu App",
-            description: "Restaurant app to take order using website",
+            description: "A restaurant ordering application that allows users to browse the menu, select dishes, and place orders online. Built with a visually appealing UI, the app enhances the digital dining experience with smooth animations and a structured layout.",
             image: "/projects/project_freshmenu.png",
             live: "https://kaleidoscopic-cat-37f8fc.netlify.app/",
             github: "https://github.com/arjad/food-menu",
             technologies: ["Animations", "HTML", "SASS"]
-          }, 
-          
+          }
         ]
       };
     }
