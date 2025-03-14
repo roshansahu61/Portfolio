@@ -5,7 +5,7 @@
       <ul class="d-flex mb-0">
         <li class="p-2 scroll-to" @click="scrollToSection('summary')">Summary</li>
         <li class="p-2 scroll-to" @click="scrollToSection('about')">About</li>
-        <li class="p-2 scroll-to" @click="scrollToSection('skills')">Skills</li>
+        <li class="p-2 scroll-to" @click="scrollToSection('practicle_skills')">Skills</li>
         <li class="p-2 scroll-to" @click="scrollToSection('projects')">Projects</li>
         <li class="p-2 scroll-to" @click="scrollToSection('contact')">Contact</li>
 

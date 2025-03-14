@@ -17,7 +17,7 @@
         >
           View Resume
         </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        <button class="btn btn-color-1" @click="scrollToSection('contact')">
           Contact Info
         </button>
       </div>
@@ -47,6 +47,12 @@ export default {
   methods: {
     redirectTo(url) {
       window.location.href = url;
+    },
+    scrollToSection(sectionId) {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   }
 };
