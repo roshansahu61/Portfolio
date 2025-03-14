@@ -5,7 +5,7 @@
     <div class="position-relative">
       <div class="verticle-line position-absolute"></div>
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
-        <h2 class='mb-4'> Experience - {{calculatedExperience}}+ year(s)</h2>
+        <h2 class='mb-4'> <i class="fa-solid fa-briefcase"></i> Experience - {{calculatedExperience}}+ year(s)</h2>
         <div class='w-100 text-green'>
           <h4 class='d-inline'> Software Engineer - 2022-present</h4>
         </div>
@@ -14,12 +14,30 @@
           <li> Developed key features and resolved bugs for web applications using React, Vue.js, and Ruby on Rails. </li>
           <li> Continuously enhancing skills by pursuing certifications in AWS, DevOps & python. </li>
         </ul>
+        <div class="skills mb-5">
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Vue JS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">React JS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Ruby on Rails</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Python </span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">AWS services</span>
+        </div>
+
         <h4 class='text-green'> Front End Developer - 2021-2022 </h4>
         <h6> <a class='text-blue'href= 'https://theunitedsoftware.com/'>United Insurance, Lahore. </a> </h6>
         <ul>
           <li> Created visually appealing, user-friendly interfaces, using CSS grid and flexbox layouts for responsive design. </li>
           <li> Utilized react components & npm modules to develop modular, reusable UI elements for efficient front-end development. </li>
         </ul>
+        <div class="skills mb-5">
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">HTML</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">CSS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">SCSS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">JavaScript</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Bootstrap</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Tailwind CSS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">React JS</span>
+        </div>
+
       </div>
     </div>
 
@@ -27,7 +45,7 @@
       <div class="verticle-line position-absolute"></div>
 
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
-        <h2 class='mb-4'> Education </h2>
+        <h2 class='mb-4'><i class="fa-solid fa-user-graduate"></i> Education </h2>
         
         <h4 class='text-green'> Bachelor in Information Technology (BIT) - 2022-present </h4>
         <h6><a class='text-blue' href='https://pucit.edu.pk/'> Punjab University (PUCIT) Lahore, Pakistan. </a></h6>

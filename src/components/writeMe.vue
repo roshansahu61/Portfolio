@@ -1,7 +1,7 @@
 <template>
     <div>
         <Heading :title="'Write Me'" :subtitle="'You can text me directly'" />
-        <div class="container container-div">
+        <div class="container container-div" data-aos="fade-left" data-aos-duration="1000">
             <div class="picture-container">
             <div class="picture">
                 
