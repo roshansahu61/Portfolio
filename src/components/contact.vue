@@ -1,9 +1,4 @@
 <template>
-<<<<<<< Updated upstream
-  <footer id="contact" class="footer d-flex justify-content-center alig-item-center">
-    <Heading :title="'Contact Me'" :subtitle="'Want To Get in Touch'" />
-    <img class='footer-me' src="../assets/me-footer.png" alt="profile pic" />
-=======
     <footer class="text-center mt-5 text-lg-start text-white" id="contact">
         <section class="row">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -27,7 +22,6 @@
                 <i class="fas fa-map-marker-alt"></i> Chauburji Park, Lahore, Pakistan
               </p>
             </div>
->>>>>>> Stashed changes
 
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
@@ -46,23 +40,20 @@
 
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
-              <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#" role="button">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#" role="button">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#" role="button">
-                <i class="fab fa-google"></i>
-              </a>
-              <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#" role="button">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#" role="button">
+              <a class="btn btn-primary btn-floating m-1" href="https://www.linkedin.com/in/arjad/" role="button">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-              <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#" role="button">
+              <a class="btn btn-primary btn-floating m-1" href="https://github.com/arjad" role="button">
                 <i class="fab fa-github"></i>
+              </a>
+              <a class="btn btn-primary btn-floating m-1" href="https://medium.com/@arjadgohar14" role="button">
+                <i class="fa-solid fa-m"></i>
+              </a>
+              <a class="btn btn-primary btn-floating m-1" href="https://dev.to/arjad_gohar_f6d9b8938c997" role="button">
+                <i class="fa-brands fa-dev"></i>
+              </a>
+              <a class="btn btn-primary btn-floating m-1" href="https://dev.to/arjad_gohar_f6d9b8938c997" role="button">
+                <i class="fa-brands fa-discord"></i>
               </a>
             </div>
         </section>
@@ -87,47 +78,8 @@ export default {
 };
 </script>
 
-<<<<<<< Updated upstream
-<style lang="scss" scoped>
-.footer {
-  position: relative;
-  width: 100%;
-  background: #47BA87;
-  flex-direction: column;
-  margin-top: 25vh;
-  color: white;
-}
-.footer-me{
-  height:100%;
-  width:45rem;
-  opacity:0.1;
-  position: absolute;
-  right: 0px;
-}
-
-.social-icon__item{
-  list-style: none;
-  padding-top: 15px;
-  font-size: 14px;
-}
-
-.social-icon__link {
-  color: #fff;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  i {
-    font-size: 1.5rem;
-  }
-}
-.social-icon__link:hover {
-  transform: translateY(-10px);
-}
-.cursor{
-=======
 <style scoped>
 .scroll-to {
->>>>>>> Stashed changes
   cursor: pointer;
 }
 </style>

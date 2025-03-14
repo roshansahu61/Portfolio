@@ -1,9 +1,5 @@
 <template>
-<<<<<<< Updated upstream
-  <section>
-=======
   <section id="practicle_skills">
->>>>>>> Stashed changes
     <Heading :title="'Practical Skills'" :subtitle="'Explore My'" />
     <div class="container">
       <div class="d-flex justify-content-center flex-wrap">
