@@ -5,25 +5,25 @@
     <div class="position-relative">
       <div class="verticle-line position-absolute"></div>
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
-        <h2 class='mb-4'> <i class="fa-solid fa-briefcase"></i> Experience - {{calculatedExperience}}+ year(s)</h2>
+        <h2 class='mb-4'> <i class="fa-solid fa-briefcase"></i> Experience</h2>
         <div class='w-100 text-green'>
-          <h4 class='d-inline'> Software Engineer - 2022-present</h4>
+          <h4 class='d-inline'> Front-End Web Developer Intern - Sept 2023 to Oct 2023 </h4>
         </div>
-        <h6> <a class='text-blue' href= 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://codingcops.com/&ved=2ahUKEwj45KjR6OGKAxWXF2IAHS9oO-MQFnoECDcQAQ&usg=AOvVaw0qDV81i0KjT34kPmA7ojBM'> Coding Cops, Lahore. </a></h6>
+        <h6> <a class='text-blue' href='https://codeclause.com/'> CodeClause, Bangalore, India </a></h6>
         <ul>
-          <li> Developed key features and resolved bugs for web applications using React, Vue.js, and Ruby on Rails. </li>
-          <li> Continuously enhancing skills by pursuing certifications in AWS, DevOps & python. </li>
+          <li> Built responsive front-end components with HTML, CSS, and JavaScript, reducing load times by 150ms. </li>
+          <li> Optimized web interfaces through debugging and performance improvements for seamless functionality. </li>
         </ul>
         <div class="skills mb-5">
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Vue JS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">React JS</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Ruby on Rails</span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Python </span>
-          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">AWS services</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">HTML5</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">CSS3</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">JavaScript</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">ReactJS</span>
+          <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Tailwind CSS</span>
         </div>
 
-        <h4 class='text-green'> Front End Developer - 2021-2022 </h4>
-        <h6> <a class='text-blue'href= 'https://theunitedsoftware.com/'>United Insurance, Lahore. </a> </h6>
+        <h4 class='text-green'> Software Developer Instructor - Present </h4>
+        <h6> <a class='text-blue'href= 'https://www.ccbp.in/'>NxtWave,Hyderabad,Telangana</a> </h6>
         <ul>
           <li> Created visually appealing, user-friendly interfaces, using CSS grid and flexbox layouts for responsive design. </li>
           <li> Utilized react components & npm modules to develop modular, reusable UI elements for efficient front-end development. </li>
@@ -37,7 +37,6 @@
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">Tailwind CSS</span>
           <span class="badge rounded-pill px-3 py-2 mx-2 border border-dark">React JS</span>
         </div>
-
       </div>
     </div>
 
@@ -47,13 +46,17 @@
       <div data-aos="fade-left" data-aos-duration="1000" class="mt-4 ml-5">
         <h2 class='mb-4'><i class="fa-solid fa-user-graduate"></i> Education </h2>
         
-        <h4 class='text-green'> Bachelor in Information Technology (BIT) - 2022-present </h4>
-        <h6><a class='text-blue' href='https://pucit.edu.pk/'> Punjab University (PUCIT) Lahore, Pakistan. </a></h6>
-        <p> Obtained comprehensive knowledge in computer science and information technology, enhancing skills in software development, and passed it with 3.06 CGPA. </p>
+        <h4 class='text-green'> B.E. in Information Science and Engineering - 2021–2025 </h4>
+        <h6><a class='text-blue' href='https://nitte.edu.in/'> NITTE Meenakshi Institute of Technology, Karnataka, India. </a></h6>
+        <p> CGPA: 7.93/10 — Developed strong foundation in software engineering, data structures, OOP, DBMS, and full-stack development. </p>
 
-        <h4 class='text-green'> Mern Stack Certification - 2022</h4>
-        <h6><a class='text-blue' href='https://nextbridge.com/'>Next Bridge, Lahore, Pakistan.</a>  </h6>
-        <p>Acquired advanced mern-stack, leveraging industry best practices to create dynamic and interactive web applications.</p>
+        <h4 class='text-green'> Class XII - 2019–2020 </h4>
+        <h6>Oxford Public School, Jharkhand, India</h6>
+        <p> Percentage: 78.6% </p>
+
+        <h4 class='text-green'> Class X - 2017–2018 </h4>
+        <h6>Vivekananda Vidya Mandir, Jharkhand, India</h6>
+        <p> Percentage: 84% </p>
       </div>
     </div>
   </section>

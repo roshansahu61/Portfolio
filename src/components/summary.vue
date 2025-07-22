@@ -1,135 +1,57 @@
 <template>
-  <section id="summary" class="section section_1 py-5 w-100 row">
-    <div data-aos="fade-right" data-aos-duration="1000" class="section__text text-center px-3 py-5 col-lg-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
-      <p>Hey! I'm</p>
-      <h1>Arjad Gohar</h1>
-      <vue-typer text='FullStack Developer'></vue-typer>
-      <p class="intro-para mt-2"> 
-        I am a skilled software developer delivering high-quality solutions across diverse projects. My expertise spans front-end and back-end development, including Vue.js, React.js, Ruby on Rails and Python.
-      </p>
-      <p class='intro-para'>
-        I specialize in creating user-friendly interfaces and scalable systems to meet client needs. My passion lies in solving complex challenges with and effective solutions.
-      </p>
-      <div class="btn-container mt-3">
-        <button
-          class="btn btn-color-2 btn-black"
-          onclick="location.href='https://drive.google.com/file/d/1I24YNY6zHmmT7MtJzKVGk1kLrqlBnT3a/view?usp=sharing'"
-        >
-          View Resume
-        </button>
-        <button class="btn btn-color-1" @click="scrollToSection('contact')">
-          Contact Info
-        </button>
+  <section class="section container" id="about">
+    <h2 class="section__title"></h2>
+    <div class="about__container">
+      <div class="about__text">
+        <p>👋 Hello, I’m Roshan — a passionate full-stack web developer based in India. I specialize in crafting dynamic and responsive websites using the MERN stack (MongoDB, Express, React, Node.js) and Angular.</p>
+        <p>💻 I’ve built full-stack projects like a chat app, job portal, and e-commerce platform. I'm skilled in third-party APIs, authentication systems, and WebSockets.</p>
+        <p>🚀 I enjoy transforming ideas into scalable software and continuously learning new technologies. I'm effective in both solo and team settings.</p>
+        <p>📫 Let’s connect and create something amazing together!</p>
       </div>
-      <div id="socials-container">
-        <i class="fa-brands fa-linkedin icon" @click="redirectTo('https://www.linkedin.com/in/arjad/')"></i>
-        <i class="icon fa-brands fa-github" @click="redirectTo('https://github.com/arjad')"></i>
+      <div class="about__image">
+        <img src="@/assets/images/about.png" alt="About Image" />
       </div>
-    </div>
-    <div class="pic_container col-lg-6 col-sm-12 d-flex justify-content-center alig-items-center">
-      <div class='pic_container_inner'>
-        <div class='green-bg'></div>
-        <img data-aos="fade-left" data-aos-duration="1000" zoomtastic src="../assets/me.png" alt="profile pic" />
-      </div>
-
     </div>
   </section>
 </template>
 
 <script>
-import { VueTyper } from 'vue-typer';
-import html2pdf from 'html2pdf.js';
-
 export default {
-  components: {
-    'vue-typer': VueTyper,
-  },
-  methods: {
-    redirectTo(url) {
-      window.location.href = url;
-    },
-    scrollToSection(sectionId) {
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  }
+  name: "About",
 };
 </script>
 
-<style lang="scss" scoped>
-.section__text {
-  height: 100%;
-  .intro-para {
-    max-width: 450px;
-  }
-}
-.pic_container {
-  height: 75vh;
+<style scoped lang="scss">
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem 0;
 
-.pic_container_inner {
-    height: 420px;
-    width: 360px;
-    position: relative;
-    .green-bg{
-      position: absolute;
-      height:350px;
-      width:350px;
-      bottom: 20px;
-      border-radius:50%;
-      background: #47BA87;
-    } 
-
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
   }
 }
 
-#socials-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
+.about__text {
+  flex: 1;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #4f5362;
+
+  p {
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
 }
 
-.icon {
-  cursor: pointer;
-  height: 2rem;
-}
-.btn-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.btn {
-  font-weight: 600;
-  transition: all 300ms ease;
-  padding: 1rem;
-  border-radius: 2rem;
-}
-
-.btn-color-1,
-.btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-  cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: white;
-}
-.btn-color-1:hover {
-  background: rgb(0, 0, 0);
-}
-.btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
-}
-.btn-container {
-  gap: 1rem;
+.about__image img {
+  flex: 1;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10rem;
 }
 </style>

@@ -16,12 +16,10 @@
               :src="`/icons/${skill.imageSrc}.png`" 
               class="skill-image mr-3"
             />
-
             {{ skill.name }}
           </h3>
         </article>
       </div>
-     
     </div>
   </section>
 </template>
@@ -38,15 +36,13 @@ export default {
         { name: 'HTML', imageSrc: 'html' },
         { name: 'CSS', imageSrc: 'css' },
         { name: 'Bootstrap', imageSrc: 'bootstrap' },
-        { name: 'SASS', imageSrc: 'sass' },
         { name: 'Tailwind', imageSrc: 'tailwind' },
         { name: 'JavaScript', imageSrc: 'js' },
         { name: 'React', imageSrc: 'react' },
         { name: 'Vue', imageSrc: 'vue' },
         { name: 'Vite', imageSrc: 'vite' },
-        { name: 'Rails', imageSrc: 'ruby' },
         { name: 'Python', imageSrc: 'python' },
-        { name: 'AWS services', imageSrc: 'aws' },
+        { name: 'Express', imageSrc: 'express' },
         { name: 'Git', imageSrc: 'git' },
         { name: 'GitHub', imageSrc: 'github' },
       ],
@@ -54,7 +50,10 @@ export default {
   },
   methods: {
     toggleSkillLevel(index) {
-      this.$set(this.skills, index, { ...this.skills[index], showLevel: !this.skills[index].showLevel });
+      this.$set(this.skills, index, {
+        ...this.skills[index],
+        showLevel: !this.skills[index].showLevel,
+      });
     },
     getAosDuration(index) {
       return index * 400;
@@ -64,15 +63,13 @@ export default {
 </script>
 
 <style scoped>
-
 article {
   width: 15rem;
   height: 5rem;
   gap: 0.5rem;
-
 }
-.skill-image{
-  height:30px;
-  width:30px;
+.skill-image {
+  height: 30px;
+  width: 30px;
 }
 </style>

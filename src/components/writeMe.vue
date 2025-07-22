@@ -84,7 +84,8 @@
             </div>
 
             <div class="contact-form-container">
-                <form class="contact-form" action="https://formspree.io/f/mjkggydl" method="POST">
+                <form class="contact-form" action="https://formspree.io/f/xeokznjd" method="POST">
+
                     <span class="form-header">Email Me</span>
                     <label>
                         <input type="email" name="email" class="email-input" placeholder="Email" />
